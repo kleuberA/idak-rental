@@ -3,9 +3,9 @@ import MenuIcon from '../../../public/menu.svg';
 import User from '../../../public/user.svg';
 import Logo from '../../../public/logo.svg';
 import Plus from '../../../public/plus.svg';
+import { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from 'react';
 
 export default function Menu() {
 
