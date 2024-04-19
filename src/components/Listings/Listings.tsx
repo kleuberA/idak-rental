@@ -23,7 +23,7 @@ export default function Listings() {
                 </div>
                 <div className='flex flex-row gap-5 justify-start w-[90dvw] mx-auto flex-wrap pb-10'>
                     {Array(10).fill(0).map((_, index) => (
-                        <div className='flex flex-col border border-[#E8E8E8] w-80'>
+                        <div key={index} className='flex flex-col border border-[#E8E8E8] w-80'>
                             <div className='relative'>
                                 <Image src={ImageListings} alt={""} className='rounded-t-md w-full' />
                                 <span className='absolute top-2 right-2 bg-[#77B747] text-xs p-2 text-white rounded-full'>For Rent</span>
