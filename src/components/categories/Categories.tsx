@@ -8,9 +8,9 @@ import Image from 'next/image';
 
 export default function Categories() {
     return (
-        <section>
+        <section className='h-[60dvh] lg:h-[25dvh] flex items-center'>
             <div className="flex flex-col gap-3 items-center justify-center w-full h-16">
-                <h1 className='text-3xl pt-20'>Browse From Top Categories</h1>
+                <h1 className='text-lg lg:text-3xl lg:pt-20 font-bold'>Browse From Top Categories</h1>
                 <Image src={Line} alt={''} />
                 <div className='flex flex-row justify-around gap-5 w-[80dvw] mx-auto flex-wrap'>
                     <div className='flex flex-row gap-2 items-center rounded-full border border-[#E8E8E8] p-2'>
