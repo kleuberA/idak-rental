@@ -1,6 +1,7 @@
 import Categories from "@/components/categories/Categories";
 import Locations from "@/components/locations/Locations";
 import Listings from "@/components/Listings/Listings";
+import Articles from "@/components/Articles/Articles";
 import Metrics from "@/components/metrics/metrics";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/hero/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
       <Listings />
       <Metrics />
       <Locations />
+      <Articles />
       <Footer />
     </div>
   );

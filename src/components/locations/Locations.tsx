@@ -1,10 +1,10 @@
-import Line from '../../../public/lineDecoration.svg';
-import Kandy from '../../../public/kandy.svg';
 import Anuradhapura from '../../../public/Anuradhapura.svg';
-import Badulla from '../../../public/Badulla.svg';
+import Line from '../../../public/lineDecoration.svg';
 import Gampaha from '../../../public/Gampaha.svg';
-import Jaffna from '../../../public/Jaffna.svg';
+import Badulla from '../../../public/Badulla.svg';
 import Colombo from '../../../public/Colombo.svg';
+import Jaffna from '../../../public/Jaffna.svg';
+import Kandy from '../../../public/kandy.svg';
 import Image from "next/image";
 
 export default function Locations() {
