@@ -1,8 +1,9 @@
-import Listings from "@/components/Listings/Listings";
 import Categories from "@/components/categories/Categories";
+import Locations from "@/components/locations/Locations";
+import Listings from "@/components/Listings/Listings";
+import Metrics from "@/components/metrics/metrics";
 import Hero from "@/components/hero/Hero";
 import Menu from "@/components/menu/Menu";
-import Metrics from "@/components/metrics/metrics";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Categories />
       <Listings />
       <Metrics />
+      <Locations />
     </div>
   );
 }
